@@ -1,7 +1,7 @@
 {
   "name": "React-Virtual-Reality-Playground",
   "version": "0.0.1",
-  "description": "This React 360 project will serve as a playground for experimenting with virtual reality in the browser, and eventually demonstrate its capabilities.",
+  "description": "This project will serve as a playground for experimenting with React 360 in the browser, a framework used for creating 3D and VR user interfaces.",
   "private": true,
   "scripts": {
     "start": "node -e \"console.log('open browser at http://localhost:8081/index.html\\n\\n');\" && node node_modules/react-native/local-cli/cli.js start",

@@ -1,15 +1,14 @@
 <html>
   <head>
-    <title>React_Virtual_Reality_Playground</title>
+    <title>React Virtual Reality Playground</title>
     <style>body { margin: 0; }</style>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   </head>
   <body>
-    <!-- Attachment point for your app -->
+    <!-- React 360 Attachment Point -->
     <div id="container"></div>
     <script src="./client.bundle?platform=vr"></script>
     <script>
-      // Initialize the React 360 application
       React360.init(
         'index.bundle?platform=vr&dev=true',
         document.getElementById('container'),
@@ -18,6 +17,7 @@
         }
       );
     </script>
+    <!-- React 360 End -->
   </body>
 </html>
 

@@ -6,13 +6,16 @@ import {
   View,
 } from 'react-360';
 
-export default class React_Virtual_Reality_Playground extends React.Component {
+/* ======================================================================
+// Default view that includes a visual interface.
+====================================================================== */
+export default class ReactVirtualRealityPlayground extends React.Component {
   render() {
     return (
       <View style={styles.panel}>
         <View style={styles.greetingBox}>
           <Text style={styles.greeting}>
-            Welcome to React 360
+            Welcome to React VR Playground!
           </Text>
         </View>
       </View>
@@ -20,19 +23,21 @@ export default class React_Virtual_Reality_Playground extends React.Component {
   }
 };
 
+/* ======================================================================
+// Styling for default view.
+====================================================================== */
 const styles = StyleSheet.create({
   panel: {
-    // Fill the entire surface
     width: 1000,
     height: 600,
-    backgroundColor: 'rgba(255, 255, 255, 0.4)',
+    backgroundColor: 'rgba(76, 16, 136, 0.4)',
     justifyContent: 'center',
     alignItems: 'center',
   },
   greetingBox: {
     padding: 20,
-    backgroundColor: '#000000',
-    borderColor: '#639dda',
+    backgroundColor: 'rgba(76, 16, 136, 1)',
+    borderColor: '#000',
     borderWidth: 2,
   },
   greeting: {
@@ -40,4 +45,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('React_Virtual_Reality_Playground', () => React_Virtual_Reality_Playground);
+AppRegistry.registerComponent('ReactVirtualRealityPlayground', () => ReactVirtualRealityPlayground);
