@@ -9,4 +9,5 @@ This project will serve as a playground for experimenting with React 360 in the 
 * React Native
 
 ## Notes
+
 A virtual reality headset isn't required to demo this project, but is preferred.
