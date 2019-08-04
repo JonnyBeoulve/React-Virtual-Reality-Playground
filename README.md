@@ -1,12 +1,12 @@
 ﻿# React-Virtual-Reality-Playground
- 
-This project will serve as a playground for experimenting with React 360 in the browser, a framework used for creating 3D and VR user interfaces.
+
+This React 360 project is a playground for experimenting with virtual reality in the browser and demonstrate its capabilities.
 
 ## Programming
 
-* React
-* React 360
-* React Native
+- React
+- React 360
+- React Native
 
 ## Notes
 

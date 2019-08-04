@@ -1,8 +1,15 @@
 <html>
   <head>
     <title>React Virtual Reality Playground</title>
-    <style>body { margin: 0; }</style>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <style>
+      body {
+        margin: 0;
+      }
+    </style>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
   </head>
   <body>
     <!-- React 360 Attachment Point -->
@@ -10,14 +17,13 @@
     <script src="./client.bundle?platform=vr"></script>
     <script>
       React360.init(
-        'index.bundle?platform=vr&dev=true',
-        document.getElementById('container'),
+        "index.bundle?platform=vr&dev=true",
+        document.getElementById("container"),
         {
-          assetRoot: 'static_assets/',
+          assetRoot: "static_assets/"
         }
       );
     </script>
     <!-- React 360 End -->
   </body>
 </html>
-
